@@ -1,0 +1,15 @@
+.{
+    .name = "damp",
+    .version = "0.0.0",
+    .dependencies = .{
+        .myzql = .{
+            .url = "https://github.com/speed2exe/myzql/archive/f336613.tar.gz",
+            .hash = "122010fbbcb8f08e0bb4e3618d76cb28f22b291939567ba53ea862dfdb3c6e93e160",
+        },
+    },
+    .paths = .{
+        "build.zig",
+        "build.zig.zon",
+        "src",
+    },
+}
